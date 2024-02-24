@@ -9,6 +9,7 @@ local
 _client
 _deps
 _server
+_build
 
 # Mobile application
 cordova

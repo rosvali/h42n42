@@ -18,20 +18,17 @@
     <extension findlib-package="ocsigenserver.ext.cors"/>
     <commandpipe>%%CMDPIPE%%</commandpipe>
     <extension findlib-package="ocsigenserver.ext.staticmod"/>
-    <!-- we use the PostgreSQL backend for ocsipersist,
-         but there is also a DBM and an SQLite backend -->
-    <!--
     <extension findlib-package="ocsipersist.dbm">
-      <delayloading val="false"/>
+      <!-- delayloading val="true"/ -->
       <store dir="%%DATADIR%%"/>
       <ocsidbm name="ocsidbm"/>
     </extension>
-    -->
     <!--
     <extension findlib-package="ocsipersist.sqlite">
       <database file="%%DATADIR%%/ocsidb"/>
     </extension>
     -->
+    <!--
     <extension findlib-package="ocsipersist.pgsql">
       <database
         host="%%DB_HOST%%"
@@ -41,6 +38,7 @@
         database="ocsipersist_h42n42"
       />
     </extension>
+    -->
     <extension findlib-package="eliom.server">
       <!-- Ask Eliom to ignore UTM parameters and others: -->
       <ignoredgetparams regexp="utm_[a-z]*|[a-z]*clid|li_fat_id"/>

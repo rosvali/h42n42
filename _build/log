@@ -1,0 +1,158 @@
+# dune build h42n42.cmxs @h42n42
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/rosvali/.cache/dune/db
+# Workspace root: /Users/rosvali/Projects/h42n42/h42n42_proj
+# Auto-detected concurrency: 4
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/rosvali/Projects/h42n42/h42n42_proj/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /Users/rosvali/.opam/4.14.1/bin/ocamlc.opt -config > /var/folders/g7/zj5bq6qs4bz7bv9cd3ty9tqm0000gn/T/dune_064be9_output
+$ (cd _build/default && .ppx/f78405b464f6e861e3bc8d52cabbd65d/ppx.exe --rpc-raw --prefix H42n42_ --suffix _i18n --default-module H42n42_i18n -o h42n42.pp.eliom --impl h42n42.eliom -corrected-suffix .ppx-corrected -diff-cmd - -dump-ast)
+$ (cd _build/default && /Users/rosvali/.opam/4.14.1/bin/ocamldep.opt -modules -impl h42n42.pp.eliom) > _build/default/.h42n42.eobjs/h42n42.impl.d
+$ /Users/rosvali/.opam/4.14.1/bin/js_of_ocaml --version > /var/folders/g7/zj5bq6qs4bz7bv9cd3ty9tqm0000gn/T/dune_741ea9_output
+$ (cd _build/default && /Users/rosvali/.opam/4.14.1/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -9-37-39 -g -bin-annot -I .h42n42.eobjs/byte -I /Users/rosvali/.opam/4.14.1/lib/angstrom -I /Users/rosvali/.opam/4.14.1/lib/astring -I /Users/rosvali/.opam/4.14.1/lib/base64 -I /Users/rosvali/.opam/4.14.1/lib/bigstringaf -I /Users/rosvali/.opam/4.14.1/lib/bytes -I /Users/rosvali/.opam/4.14.1/lib/cohttp -I /Users/rosvali/.opam/4.14.1/lib/cohttp-lwt -I /Users/rosvali/.opam/4.14.1/lib/cohttp-lwt-unix -I /Users/rosvali/.opam/4.14.1/lib/conduit -I /Users/rosvali/.opam/4.14.1/lib/conduit-lwt -I /Users/rosvali/.opam/4.14.1/lib/conduit-lwt-unix -I /Users/rosvali/.opam/4.14.1/lib/cryptokit -I /Users/rosvali/.opam/4.14.1/lib/dbm -I /Users/rosvali/.opam/4.14.1/lib/domain-name -I /Users/rosvali/.opam/4.14.1/lib/eliom/server -I /Users/rosvali/.opam/4.14.1/lib/findlib -I /Users/rosvali/.opam/4.14.1/lib/fmt -I /Users/rosvali/.opam/4.14.1/lib/hmap -I /Users/rosvali/.opam/4.14.1/lib/ipaddr -I /Users/rosvali/.opam/4.14.1/lib/ipaddr-sexp -I /Users/rosvali/.opam/4.14.1/lib/ipaddr/unix -I /Users/rosvali/.opam/4.14.1/lib/js_of_ocaml/deriving -I /Users/rosvali/.opam/4.14.1/lib/logs -I /Users/rosvali/.opam/4.14.1/lib/lwt -I /Users/rosvali/.opam/4.14.1/lib/lwt/unix -I /Users/rosvali/.opam/4.14.1/lib/lwt_log -I /Users/rosvali/.opam/4.14.1/lib/lwt_log/core -I /Users/rosvali/.opam/4.14.1/lib/lwt_react -I /Users/rosvali/.opam/4.14.1/lib/lwt_ssl -I /Users/rosvali/.opam/4.14.1/lib/macaddr -I /Users/rosvali/.opam/4.14.1/lib/magic-mime -I /Users/rosvali/.opam/4.14.1/lib/ocaml/threads -I /Users/rosvali/.opam/4.14.1/lib/ocplib-endian -I /Users/rosvali/.opam/4.14.1/lib/ocplib-endian/bigstring -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/baselib -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/baselib/base -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/cookies -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/http -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/polytables -I /Users/rosvali/.opam/4.14.1/lib/ocsipersist-lib -I /Users/rosvali/.opam/4.14.1/lib/ocsipersist/dbm -I /Users/rosvali/.opam/4.14.1/lib/parsexp -I /Users/rosvali/.opam/4.14.1/lib/ppx_sexp_conv/runtime-lib -I /Users/rosvali/.opam/4.14.1/lib/re -I /Users/rosvali/.opam/4.14.1/lib/react -I /Users/rosvali/.opam/4.14.1/lib/seq -I /Users/rosvali/.opam/4.14.1/lib/sexplib -I /Users/rosvali/.opam/4.14.1/lib/sexplib0 -I /Users/rosvali/.opam/4.14.1/lib/ssl -I /Users/rosvali/.opam/4.14.1/lib/stringext -I /Users/rosvali/.opam/4.14.1/lib/tyxml -I /Users/rosvali/.opam/4.14.1/lib/tyxml/functor -I /Users/rosvali/.opam/4.14.1/lib/uri -I /Users/rosvali/.opam/4.14.1/lib/uri-sexp -I /Users/rosvali/.opam/4.14.1/lib/uri/services -I /Users/rosvali/.opam/4.14.1/lib/uutf -I /Users/rosvali/.opam/4.14.1/lib/xml-light -I /Users/rosvali/.opam/4.14.1/lib/zarith -intf-suffix .eliom -no-alias-deps -opaque -o .h42n42.eobjs/byte/h42n42.cmo -c -impl h42n42.pp.eliom)
+> File "h42n42.eliom", line 39, characters 34-49:
+> 39 |           (body [h1 [txt "Hello"; p [txt "world"]; txt "!"]])))
+>                                        ^^^^^^^^^^^^^^^
+> Error: This expression has type [> Html_types.p ] elt
+>        but an expression was expected of type
+>          [< Html_types.h1_content_fun > `PCDATA ] elt
+>        Type [> Html_types.p ] = [> `P ] is not compatible with type
+>          [< Html_types.h1_content_fun > `PCDATA ] =
+>            [< `A of Html_types.phrasing_without_interactive
+>             | `Abbr
+>             | `Audio of Html_types.phrasing_without_media
+>             | `Audio_interactive of Html_types.phrasing_without_media
+>             | `B
+>             | `Bdo
+>             | `Br
+>             | `Button
+>             | `Canvas of Html_types.phrasing
+>             | `Cite
+>             | `Code
+>             | `Command
+>             | `Datalist
+>             | `Del of Html_types.phrasing
+>             | `Dfn
+>             | `Em
+>             | `Embed
+>             | `I
+>             | `Iframe
+>             | `Img
+>             | `Img_interactive
+>             | `Input
+>             | `Ins of Html_types.phrasing
+>             | `Kbd
+>             | `Keygen
+>             | `Label
+>             | `Map of Html_types.phrasing
+>             | `Mark
+>             | `Meter
+>             | `Noscript of Html_types.phrasing_without_noscript
+>             | `Object of Html_types.phrasing
+>             | `Object_interactive of Html_types.phrasing
+>             | `Output
+>             | `PCDATA
+>             | `Progress
+>             | `Q
+>             | `Ruby
+>             | `Samp
+>             | `Script
+>             | `Select
+>             | `Small
+>             | `Span
+>             | `Strong
+>             | `Sub
+>             | `Sup
+>             | `Svg
+>             | `Template
+>             | `Textarea
+>             | `Time
+>             | `U
+>             | `Var
+>             | `Video of Html_types.phrasing_without_media
+>             | `Video_interactive of Html_types.phrasing_without_media
+>             | `Wbr
+>             > `PCDATA ] 
+>        The second variant type does not allow tag(s) `P
+[2]
+$ (cd _build/default && /Users/rosvali/.opam/4.14.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -9-37-39 -g -I .h42n42.eobjs/byte -I .h42n42.eobjs/native -I /Users/rosvali/.opam/4.14.1/lib/angstrom -I /Users/rosvali/.opam/4.14.1/lib/astring -I /Users/rosvali/.opam/4.14.1/lib/base64 -I /Users/rosvali/.opam/4.14.1/lib/bigstringaf -I /Users/rosvali/.opam/4.14.1/lib/bytes -I /Users/rosvali/.opam/4.14.1/lib/cohttp -I /Users/rosvali/.opam/4.14.1/lib/cohttp-lwt -I /Users/rosvali/.opam/4.14.1/lib/cohttp-lwt-unix -I /Users/rosvali/.opam/4.14.1/lib/conduit -I /Users/rosvali/.opam/4.14.1/lib/conduit-lwt -I /Users/rosvali/.opam/4.14.1/lib/conduit-lwt-unix -I /Users/rosvali/.opam/4.14.1/lib/cryptokit -I /Users/rosvali/.opam/4.14.1/lib/dbm -I /Users/rosvali/.opam/4.14.1/lib/domain-name -I /Users/rosvali/.opam/4.14.1/lib/eliom/server -I /Users/rosvali/.opam/4.14.1/lib/findlib -I /Users/rosvali/.opam/4.14.1/lib/fmt -I /Users/rosvali/.opam/4.14.1/lib/hmap -I /Users/rosvali/.opam/4.14.1/lib/ipaddr -I /Users/rosvali/.opam/4.14.1/lib/ipaddr-sexp -I /Users/rosvali/.opam/4.14.1/lib/ipaddr/unix -I /Users/rosvali/.opam/4.14.1/lib/js_of_ocaml/deriving -I /Users/rosvali/.opam/4.14.1/lib/logs -I /Users/rosvali/.opam/4.14.1/lib/lwt -I /Users/rosvali/.opam/4.14.1/lib/lwt/unix -I /Users/rosvali/.opam/4.14.1/lib/lwt_log -I /Users/rosvali/.opam/4.14.1/lib/lwt_log/core -I /Users/rosvali/.opam/4.14.1/lib/lwt_react -I /Users/rosvali/.opam/4.14.1/lib/lwt_ssl -I /Users/rosvali/.opam/4.14.1/lib/macaddr -I /Users/rosvali/.opam/4.14.1/lib/magic-mime -I /Users/rosvali/.opam/4.14.1/lib/ocaml/threads -I /Users/rosvali/.opam/4.14.1/lib/ocplib-endian -I /Users/rosvali/.opam/4.14.1/lib/ocplib-endian/bigstring -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/baselib -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/baselib/base -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/cookies -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/http -I /Users/rosvali/.opam/4.14.1/lib/ocsigenserver/polytables -I /Users/rosvali/.opam/4.14.1/lib/ocsipersist-dbm/__private__/ocsipersist_dbmtypes -I /Users/rosvali/.opam/4.14.1/lib/ocsipersist-lib -I /Users/rosvali/.opam/4.14.1/lib/ocsipersist/dbm -I /Users/rosvali/.opam/4.14.1/lib/parsexp -I /Users/rosvali/.opam/4.14.1/lib/ppx_sexp_conv/runtime-lib -I /Users/rosvali/.opam/4.14.1/lib/re -I /Users/rosvali/.opam/4.14.1/lib/react -I /Users/rosvali/.opam/4.14.1/lib/seq -I /Users/rosvali/.opam/4.14.1/lib/sexplib -I /Users/rosvali/.opam/4.14.1/lib/sexplib0 -I /Users/rosvali/.opam/4.14.1/lib/ssl -I /Users/rosvali/.opam/4.14.1/lib/stringext -I /Users/rosvali/.opam/4.14.1/lib/tyxml -I /Users/rosvali/.opam/4.14.1/lib/tyxml/functor -I /Users/rosvali/.opam/4.14.1/lib/uri -I /Users/rosvali/.opam/4.14.1/lib/uri-sexp -I /Users/rosvali/.opam/4.14.1/lib/uri/services -I /Users/rosvali/.opam/4.14.1/lib/uutf -I /Users/rosvali/.opam/4.14.1/lib/xml-light -I /Users/rosvali/.opam/4.14.1/lib/zarith -intf-suffix .eliom -no-alias-deps -opaque -o .h42n42.eobjs/native/h42n42.cmx -c -impl h42n42.pp.eliom)
+> File "h42n42.eliom", line 39, characters 34-49:
+> 39 |           (body [h1 [txt "Hello"; p [txt "world"]; txt "!"]])))
+>                                        ^^^^^^^^^^^^^^^
+> Error: This expression has type [> Html_types.p ] elt
+>        but an expression was expected of type
+>          [< Html_types.h1_content_fun > `PCDATA ] elt
+>        Type [> Html_types.p ] = [> `P ] is not compatible with type
+>          [< Html_types.h1_content_fun > `PCDATA ] =
+>            [< `A of Html_types.phrasing_without_interactive
+>             | `Abbr
+>             | `Audio of Html_types.phrasing_without_media
+>             | `Audio_interactive of Html_types.phrasing_without_media
+>             | `B
+>             | `Bdo
+>             | `Br
+>             | `Button
+>             | `Canvas of Html_types.phrasing
+>             | `Cite
+>             | `Code
+>             | `Command
+>             | `Datalist
+>             | `Del of Html_types.phrasing
+>             | `Dfn
+>             | `Em
+>             | `Embed
+>             | `I
+>             | `Iframe
+>             | `Img
+>             | `Img_interactive
+>             | `Input
+>             | `Ins of Html_types.phrasing
+>             | `Kbd
+>             | `Keygen
+>             | `Label
+>             | `Map of Html_types.phrasing
+>             | `Mark
+>             | `Meter
+>             | `Noscript of Html_types.phrasing_without_noscript
+>             | `Object of Html_types.phrasing
+>             | `Object_interactive of Html_types.phrasing
+>             | `Output
+>             | `PCDATA
+>             | `Progress
+>             | `Q
+>             | `Ruby
+>             | `Samp
+>             | `Script
+>             | `Select
+>             | `Small
+>             | `Span
+>             | `Strong
+>             | `Sub
+>             | `Sup
+>             | `Svg
+>             | `Template
+>             | `Textarea
+>             | `Time
+>             | `U
+>             | `Var
+>             | `Video of Html_types.phrasing_without_media
+>             | `Video_interactive of Html_types.phrasing_without_media
+>             | `Wbr
+>             > `PCDATA ] 
+>        The second variant type does not allow tag(s) `P
+[2]
